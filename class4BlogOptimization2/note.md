@@ -9,8 +9,6 @@ We'll be making useo f axios in this build to fetch data asynchronously - npm i 
 # Params will be installed to be able to access
 npm i react-router-dom
 
-# Optimization
-1. Optimized Userpage rendering issue using (createSelector in postsSlice)
 
 # State normalization
 
@@ -23,3 +21,9 @@ React redux and  normalization provides a createEntityAdapter API
 - Abstracts more logic from components
 - Built-in CRUD methods
 - Automatic selector generation
+
+# Optimization
+2. Optimized Reaction button re-rendering entire post rather than it's own component using normalization. This is done in
+the postsSlice using create Entity Adapter
+
+3. Postlist component changes too
